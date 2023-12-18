@@ -17,7 +17,7 @@ export const ProductForm = ({ fetchData }) => {
     deliveryRegex: /^[A-Za-z]{1,5}/
   }])
   const [validated, setValidated] = useState(false);
-y
+
   const [formCampValidation, setformCampValidation] = useState([{
     name: false, price: false, stock: false, mark: false, category: false, descShort: false, descLarge: false, freeDelivery: false, ageSince: false, ageUntil: false, image: false
   }])
